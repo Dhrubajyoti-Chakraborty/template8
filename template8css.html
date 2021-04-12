@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: skyblue;
+  padding: 20px;
+  padding-left: 193px;
+    padding-right: 193px;
+  /* padding-right: 268px;
+  padding-left: 276px; */
+  height: 171px;
+}
+.header small{
+  opacity: .5;
+
+}
+
+.header h1 {
+    padding-top: 0px;
+    margin-bottom: -5px;
+    margin-top: 6px;
+    /* font-weight: 900px; */
+  opacity: .5;
+
+
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+    /* padding-left: 220px; */
+    width: 964px;
+    height: 57px;
+    padding-top: 10px;
+    margin-top: 21px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  /* text-align: center; */
+  padding: 14px 16px;
+  /* padding-left: 230px; */
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 2800px;
+  opacity: .5;
+
+}
+
+.rightheader {
+    float: right;
+    padding-top: 20px;
+    padding-right: 14px;
+}
+
+.rightheader input[type=search] {
+        padding-right: 58px;
+}
+
+/* Create three unequal columns that floats next to each other */
+/* .column {
+  float: left;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.row{
+  clear: both;
+} */
+.space{
+    /* padding-left: 250px; */
+    /* padding-right: 250px; */
+    padding-right: 192px;
+    padding-left: 195px;
+    padding-top: 12px;
+}
+
+/* .slider .a p {
+    text-align: justify;
+    padding-right: 640px;
+} */
+
+.slider img {
+    float: right;
+    margin-top: -298px;
+
+}
+
+.slider {
+    /* display: inline-block; */
+    /* padding-left: 10px; */
+    width: 962px;
+    margin-top: -49px;
+}
+
+.para {
+    padding-bottom: 44px;
+    background: skyblue;
+    /* padding-top: 1px; */
+    width: 332px;
+    height: 263px;
+    padding-bottom: 297px;
+}
+
+.a.para p {
+    width: 306px;
+    font-size: 14px;
+    margin-left: 24px;
+    margin-top: 53px;
+    padding-right: 20px;
+    line-height: 20px;
+}
+.a.para a{
+    text-decoration: none;
+    
+}
+
+.link{
+    float:right; 
+    margin-right: 21px;
+}
+
+.a.para h5 {
+    font-size: 40px;
+    height: 40px;
+    margin-left: 20px;
+    /* margin-top: 74px; */
+    padding-top: 19px;
+    opacity: .4;
+
+}
+
+.a.para p {
+    width: 306px;
+    font-size: 14px;
+    margin-left: 24px;
+    margin-top: 67px;
+    padding-right: 20px;
+    line-height: 20px;
+    padding-top: 21px;
+    opacity: 0.5;
+
+}
+
+.a.paratwo {
+    width: 460px;
+}
+
+.a.paratwo p {
+    font-size: 14px;
+    opacity: 0.5;
+
+}
+.a.paratwo h1 {
+    opacity: 0.5;
+
+}
+
+.slidertwo {
+    width: 964px;
+    height: 268px;
+}
+
+.a.image {
+    float: right;
+    margin-top: -153px;
+}
+
+.a.image img {
+    padding-left: 36px;
+}
+
+.linktwo {
+    float: right;
+    margin-top: -1px;
+    font-size: 15px;
+    padding-right: 115px;
+
+}
+
+.linktwo a{
+
+text-decoration: none;
+}
+
+
+.a.paratwo h1 {
+    font-weight: 500;
+}
+.x{
+    float: left;
+  padding: 7px;
+}
+
+.x.blog {
+    width: 269px;
+}
+
+.footer {
+    margin-left: -10px;
+    /* opacity: 0.5; */
+    width: 964px;
+    clear: both;
+    height: 298px;
+}
+
+.x.blog p {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.x.blog h4 {
+    margin-bottom: -4px;
+    opacity: 0.5;
+}
+.x.blog .a {
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.x.blog a{
+    text-decoration: none;
+}
+.x.blog .b {
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.x.blog h3 {
+    margin-bottom: 36px;
+    opacity: 0.5;
+}
+
+.x.qlinks a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.x.qlinks h3{
+    opacity: 0.5;
+}
+
+.x.aboutimage {
+    padding-left: 113px;
+}
+.x.aboutpara p {
+    width: 339px;
+    font-size: 15px;
+    margin-top: 71px;
+    /* padding-left: 17px; */
+    opacity: 0.5;
+}
+.x.aboutimage {
+    padding-left: 59px;
+}
+.x.aboutimage h3{
+    opacity: 0.5;
+}
+.x.aboutpara {
+    width: 356px;
+    float: right;
+    margin-top: -224px;
+    padding-left: 42px;
+}
+.footerlink {
+    float: right;
+    text-decoration: none;
+    margin-top: 41px;
+}
+.lowerfooter{
+    background: skyblue;
+}
+
+p.flowertwo {
+    float: right;
+    margin-top: -31px;
+    padding-right: 190px;
+    opacity: 0.5;
+}
+
+p.flowerone {
+    padding-left: 188px;
+    padding-top: 23px;
+    opacity: 0.5;
+
+}
+.lowerfooter {
+    background: skyblue;
+    height: 68px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="rightheader">
+        <input type="search" name="" id="" placeholder="Search Our Website...">
+        <button type="submit">Submit</button>
+    </div>
+
+    <h1> Basic 90</h1>
+    <small> Free HTML<sub>5</sub>Website Template </small>
+
+ 
+
+    <div class="topnav">
+      <a href="#">HOMEPAGE</a>
+      <a href="#">STYLE DEMO</a>
+      <a href="#">FULL WIDTH</a>
+      <a href="#">GALLERY</a>
+      <a href="#">PORTFOLIO</a>
+    </div>
+</div>
+
+
+
+
+<div class="space">
+
+
+    <div class="slider">
+        <div class="a para">
+            <h5>Eu justo augue <br> estas </h5>
+        <p>
+          Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. <br> Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.
+        </p>
+      <a href="http://" class="link">Read More »</a>
+        
+      </div>
+
+      <div class="a">
+
+              <img src="background (1).jpg" alt="" >
+
+      </div>
+
+    </div>
+
+    <div class="slidertwo">
+        <div class="a paratwo">
+              <h1>Lorum ipsum dolor </h1>
+          <p class="">
+              This is a W<sub>3</sub>C compliant free website template from <a href="http://" style="text-decoration: none;">OS Templates</a>. For full terms of use of this template please read our <a href="http://" style="text-decoration: none;">website template licence</a> . 
+              <br><br>
+              You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and <br> associated files. For more HTML5 templates visit <a href="http://" style="text-decoration: none;">free website templates</a>.
+            </p>
+        </div>
+  
+        <div class="a image">
+  
+                <img src="dhrub (2).jpg" alt="" >
+                <img src="dhrub (2).jpg" alt="" >
+                <img src="dhrub (2).jpg" alt="" >
+        </div>
+  
+  
+  
+        <div class="linktwo">
+            <a href="http://">VIEW OUR IMAGE GALLERY HERE »</a>
+        </div>
+    </div>
+    <br>
+
+    <div class="footer">
+
+        <div class="x blog">
+            <h3>FROM THE BLOG</h3> 
+            <h4> Post Title</h4>
+            <small class="a">Admin,domainname.com</small> <br><br>
+            <small class="b">Friday,6th April 2000</small>
+            <p>
+                Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.
+            </p>
+            <a href="">Read More >></a>
+        </div>
+        <div class="x qlinks">
+            <h3>QUICK LINKS</h3> <br>
+            <a href=""> >> Lorem ipsum dolor sit</a><br><br>
+            <a href="">>> Amet consectetur</a><br><br>
+            <a href="">>> Praesent vel sem id</a><br><br>
+            <a href="">>> Curabitur hendrerit est</a><br><br>
+            <a href="">>> Sed a nulla urna</a>
+        </div>
+        <div class="x aboutimage">
+            <h3>ABOUT US</h3> <br>
+            
+            <img src="dhrub (2).jpg" alt="" >
+        </div>
+        <div class="x aboutpara">
+            <p>
+                Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit.
+            </p>
+            <a href="http://" class="footerlink">Read More »</a>
+
+        </div>
+    </div>
+
+   
+</div>
+<div class="lowerfooter">
+    <p class="flowerone">Copyright © 2018 - All Rights Reserved - Domain Name</p>
+    <p class="flowertwo">Template by OS Templates</p>
+</div>
+
+</body>
+</html>
